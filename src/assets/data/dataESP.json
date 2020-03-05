@@ -91,6 +91,29 @@
                 "text": "<span class='font-weight-bolder'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                 "productImg": "./assets/img/ovalo.png",
                 "producWeb": "./assets/img/ovalo.webp"
+            },
+            "plans":{
+                "textInfo": {
+                    "button": "Texto",
+                    "title": "rhoncus est pellentesque elit ullamcorper",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "perM": "Mes", "perA": "Año"
+                },
+                "details": [
+                    {"title": "Plan 1", "price": "22", "per": "month", "button": "Opción1", "items": [
+                        {"item": "Opción1"},
+                        {"item": "Opción2"},
+                        {"item": "Opción3"},
+                        {"item": "Opción4"}
+                    ]},
+                    {"title": "Plan 2", "price": "99", "per": "month", "button": "Opción2", "items": [
+                        {"item": "Opción1"},
+                        {"item": "Opción2"},
+                        {"item": "Opción3"},
+                        {"item": "Opción4"},
+                        {"item": "Opción5"}
+                    ]}
+                ]
             }
         }
     }

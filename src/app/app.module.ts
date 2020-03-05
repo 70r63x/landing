@@ -7,6 +7,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatBadgeModule} from '@angular/material/badge';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -37,14 +39,18 @@ import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
     MatMenuModule,
     MatDialogModule,
     FormsModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonToggleModule,
+    MatBadgeModule
   ],
   exports: [
     MatToolbarModule,
     MatMenuModule,
     MatDialogModule,
     FormsModule,
-    MatInputModule
+    MatInputModule,
+    MatButtonToggleModule,
+    MatBadgeModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

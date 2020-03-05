@@ -10,3 +10,23 @@ body { margin: 0; font-family: 'Source Sans Pro', sans-serif !important; font-si
 p{
     color: #808080
 }
+
+.mat-button-toggle-checked {
+    background-color: #377dff;
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.mat-button-toggle-group, .mat-button-toggle-standalone {
+    overflow: inherit !important;
+}
+
+#plans .mat-badge-accent .mat-badge-content {
+    background: #00c9a7 !important;
+}
+
+#plans .mat-badge-medium .mat-badge-content {
+    width: 70px !important;
+    border-radius: 10px !important;
+}
+
