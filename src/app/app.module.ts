@@ -18,6 +18,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ScrollTopComponent } from './sections/scroll-top/scroll-top.component';
 import { LoginComponent, OpenLogin } from './sections/login/login.component';
 import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
+import { AboutUsComponent } from './sections/about-us/about-us.component';
+import { LayoutComponent } from './layout/layout.component';
+
+import { ConnectionService } from './services/connection/connection.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,9 @@ import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
     ScrollTopComponent,
     LoginComponent,
     OpenLogin,
-    SafeInsertionPipe
+    SafeInsertionPipe,
+    AboutUsComponent,
+    LayoutComponent
   ],
   entryComponents: [OpenLogin],
   imports: [
@@ -41,7 +48,8 @@ import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
     FormsModule,
     MatInputModule,
     MatButtonToggleModule,
-    MatBadgeModule
+    MatBadgeModule,
+    HttpClientModule
   ],
   exports: [
     MatToolbarModule,
@@ -52,7 +60,7 @@ import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
     MatButtonToggleModule,
     MatBadgeModule
   ],
-  providers: [appRoutingProviders],
+  providers: [appRoutingProviders, ConnectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
