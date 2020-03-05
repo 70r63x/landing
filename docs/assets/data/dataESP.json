@@ -1,0 +1,130 @@
+{
+    "header": {
+        "logo": "./assets/img/lucasian-logo.png",
+        "logoWeb": "./assets/img/lucasian-logo.webp",
+        "iconsRow":[
+            {"icon": "fas fa-search"},
+			{"icon": "fas fa-shopping-cart"},
+            {"icon": "fas fa-user-circle"}
+        ],
+        "contact": "Contacts",
+        "optionRow": "Opcion1",
+        "menus": [
+            {
+                "menu": "Menu1",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu2",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu3",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu4",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu5",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            }
+        ]
+    },
+    "footer":{
+        "logo": "./assets/img/lucasian-logo.png",
+        "logoWeb": "./assets/img/lucasian-logo.webp",
+        "text": "Solo para pruebas"
+    },
+    "forms":{
+        "alerts":{
+            "invalidForm": "The form is incomplete",
+            "validForm": "form sent correctly"
+        },
+        "login":{
+            "title": "Welcome to the page",
+            "inputs":{
+                "user": "UserName",
+                "pass": "Password"
+            },
+            "fieldbutton": "Login"
+        }
+    },
+    "pages":{
+        "home":{
+            "logoBanner": "./assets/img/Captura.png",
+            "logoBannerWeb": "./assets/img/Captura.webp",
+            "infoBanner":{
+                "title": "Título",
+                "text": "<p>Contenido <span class='text-primary'>more professional</span></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+                "buttonStart": "Get Started", "video": "Play video"
+            },
+            "services":{
+                "title": "Título de la sección",
+                "button": "¿Necesitas ayuda?",
+                "service": [
+                    {"icon": "./assets/img/imgL1.png", "iconweb": "./assets/img/imgL1.webp", "title": "Servicio1", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+                    {"icon": "./assets/img/imgL2.png", "iconweb": "./assets/img/imgL2.webp", "title": "Servicio2", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+                    {"icon": "./assets/img/imgL3.png", "iconweb": "./assets/img/imgL3.webp", "title": "Servicio3", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+                ],
+                "arrow": [
+                    {"icon": "./assets/img/flecha.png", "iconweb": "./assets/img/flecha.webp"},
+                    {"icon": "./assets/img/lapso.png", "iconweb": "./assets/img/lapso.webp"},
+                    {"icon": "./assets/img/flecha.png", "iconweb": "./assets/img/flecha.webp"}
+                ],
+                "text": "<span class='font-weight-bolder'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "productImg": "./assets/img/ovalo.png",
+                "producWeb": "./assets/img/ovalo.webp"
+            },
+            "plans":{
+                "textInfo": {
+                    "button": "Texto",
+                    "title": "rhoncus est pellentesque elit ullamcorper",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "perM": "Mes", "perA": "Año"
+                },
+                "details": [
+                    {"title": "Plan 1", "price": "22", "per": "month", "button": "Opción1", "items": [
+                        {"item": "Opción1"},
+                        {"item": "Opción2"},
+                        {"item": "Opción3"},
+                        {"item": "Opción4"}
+                    ]},
+                    {"title": "Plan 2", "price": "99", "per": "month", "button": "Opción2", "items": [
+                        {"item": "Opción1"},
+                        {"item": "Opción2"},
+                        {"item": "Opción3"},
+                        {"item": "Opción4"},
+                        {"item": "Opción5"}
+                    ]}
+                ]
+            },
+            "about": {
+                "title": "Título de la sección",
+                "button": "Eventos",
+                "text": "rhoncus est pellentesque elit ullamcorper",
+                "backgrounds":[
+                    {"back": "./assets/img/foto1.png", "backWeb": "./assets/img/foto1.webp"},
+                    {"back": "./assets/img/foto2.png", "backWeb": "./assets/img/foto2.webp"}
+                ],
+                "textUsers": "Condimentum montes cras sapien dapibus tristique purus venenatis accumsan nulla nostra"
+            }
+        }
+    }
+}
