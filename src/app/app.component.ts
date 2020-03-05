@@ -14,4 +14,8 @@ export class AppComponent {
   getHeader(){
   	return dataWebES.header;
   }
+
+  getFooter(){
+  	return dataWebES.footer;
+  }
 }

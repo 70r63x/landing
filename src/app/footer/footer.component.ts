@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppComponent } from '../app.component';
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  public dataFooter: any;
+
+  constructor(public dataWeb: AppComponent) {
+    this.dataFooter = dataWeb.getFooter();
+  }
 
   ngOnInit() {
   }

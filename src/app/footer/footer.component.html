@@ -1,3 +1,17 @@
-<p>
-  footer works!
-</p>
+<footer>
+  <mat-toolbar>
+    <mat-toolbar-row class="row-content py-md-4 px-0">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-2 text-center">
+            <picture>
+              <source srcset="{{dataFooter.logoWeb}}" type="image/webp"><!-- Formato WebP -->
+              <img class="img-fluid w-75" src="{{dataFooter.logo}}" alt="logo lucasian labs">
+            </picture>
+            <p>{{dataFooter.text}}</p>
+          </div>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</footer>

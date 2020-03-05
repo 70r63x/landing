@@ -46,5 +46,10 @@
                 ]
             }
         ]
+    },
+    "footer":{
+        "logo": "./assets/img/lucasian-logo.png",
+        "logoWeb": "./assets/img/lucasian-logo.webp",
+        "text": "Solo para pruebas"
     }
 }
