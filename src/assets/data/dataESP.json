@@ -1,0 +1,50 @@
+{
+    "header": {
+        "logo": "./assets/img/lucasian-logo.png",
+        "logoWeb": "./assets/img/lucasian-logo.webp",
+        "iconsRow":[
+            {"icon": "fas fa-search"},
+			{"icon": "fas fa-shopping-cart"},
+            {"icon": "fas fa-user-circle"}
+        ],
+        "contact": "Contacts",
+        "optionRow": "Opcion1",
+        "menus": [
+            {
+                "menu": "Menu1",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu2",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu3",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu4",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            },
+            {
+                "menu": "Menu5",
+                "links": [
+                    { "link": "Option1", "url": "#" },
+                    { "link": "Option2", "url": "#" }
+                ]
+            }
+        ]
+    }
+}

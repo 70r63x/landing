@@ -1,0 +1,11 @@
+header {
+    width: 100%;
+}
+.row-first {
+    height: 46px;
+    font-size: 14px;
+}
+.row-second {
+    height: auto;
+    font-size: 20px !important;
+}

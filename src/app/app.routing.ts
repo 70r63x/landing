@@ -10,8 +10,8 @@ const appRoutes: Routes = [
 
 export const appRoutingProviders: any[] = [];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes, {
-	onSameUrlNavigation: 'reload',
-  scrollPositionRestoration: 'enabled',
-  anchorScrolling: 'enabled',
-  preloadingStrategy: PreloadAllModules
+    onSameUrlNavigation: 'reload',
+    scrollPositionRestoration: 'enabled',
+    anchorScrolling: 'enabled',
+    preloadingStrategy: PreloadAllModules
 });

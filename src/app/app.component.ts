@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import dataWebES from '../assets/data/dataESP.json';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landing';
+
+
+  getHeader(){
+  	return dataWebES.header;
+  }
 }

@@ -1,3 +1,60 @@
-<p>
-  header works!
-</p>
+<header>
+  <mat-toolbar class="header-toolbar">
+    <mat-toolbar-row class="row-first bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 col-md-8 col-lg-3 offset-lg-9 text-right">
+            <div class="row">
+              <div class="col">
+                <p class="mb-0">{{dataHeader.optionRow}}</p>
+              </div>
+              <div class="col">
+                <p class="mb-0">{{dataHeader.contact}}</p>
+              </div>
+              <div class="col px-0" *ngFor="let icon of dataHeader.iconsRow">
+                <i class="{{icon.icon}}"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="row-second bg-white py-1">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg px-0 w-100 py-0">
+            <div class="col-2">
+              <a [routerLink]="['']">
+                <picture>
+                  <source srcset="{{dataHeader.logoWeb}}" type="image/webp"><!-- Formato WebP -->
+                    <img class="mr-2 img-fluid w-75" src="{{dataHeader.logo}}" alt="logo lucasian labs">
+                </picture>
+              </a>
+            </div>
+            <div class="col-2 col-lg-6 text-center offset-lg-4 mr-0 text-center text-lg-right">
+              <div class="collapse navbar-collapse navbar-responsive" id="navbarResponsive">
+                <ul class="navbar-nav">
+                  <li class="nav-item" *ngFor="let menus of dataHeader.menus">
+                    <span mat-menu-item class="text-center" [matMenuTriggerFor]="menuPhone">
+                      <a class="link-responsive">{{menus.menu}}</a>
+                      <i class="ml-2 fas fa-angle-down"></i>
+                    </span>
+                    <mat-menu #menuPhone="matMenu" class="menuRes">
+                      <ul class="p-0">
+                        <span *ngFor="let submenu of menus.links">
+                          <li mat-menu-item class="text-center">
+                            <a class="link-responsive" [routerLink]="['/', submenu.url]" [routerLinkActive]="['menuActive']">{{submenu.link}}</a>
+                          </li>
+                        </span>
+                      </ul>
+                    </mat-menu>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</header>
