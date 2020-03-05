@@ -51,5 +51,19 @@
         "logo": "./assets/img/lucasian-logo.png",
         "logoWeb": "./assets/img/lucasian-logo.webp",
         "text": "Solo para pruebas"
+    },
+    "forms":{
+        "alerts":{
+            "invalidForm": "The form is incomplete",
+            "validForm": "form sent correctly"
+        },
+        "login":{
+            "title": "Welcome to the page",
+            "inputs":{
+                "user": "UserName",
+                "pass": "Password"
+            },
+            "fieldbutton": "Login"
+        }
     }
 }

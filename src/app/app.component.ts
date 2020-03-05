@@ -18,4 +18,8 @@ export class AppComponent {
   getFooter(){
   	return dataWebES.footer;
   }
+
+  getForms(){
+    return dataWebES.forms;
+  }
 }
