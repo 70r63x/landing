@@ -114,6 +114,16 @@
                         {"item": "Opción5"}
                     ]}
                 ]
+            },
+            "about": {
+                "title": "Título de la sección",
+                "button": "Eventos",
+                "text": "rhoncus est pellentesque elit ullamcorper",
+                "backgrounds":[
+                    {"back": "./assets/img/foto1.png", "backWeb": "./assets/img/foto1.webp"},
+                    {"back": "./assets/img/foto2.png", "backWeb": "./assets/img/foto2.webp"}
+                ],
+                "textUsers": "Condimentum montes cras sapien dapibus tristique purus venenatis accumsan nulla nostra"
             }
         }
     }

@@ -2,10 +2,6 @@
     font-size: 60px;
 }
 
-.btn-start{
-    background: #f6faff;
-}
-
 .flipImage{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -49,15 +45,5 @@
   }
   100% {
     transform: translate3d(85px, 0, 0);
-  }
-}
-
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-  .content {
-    height: 30vh;
   }
 }

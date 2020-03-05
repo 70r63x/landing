@@ -1,0 +1,9 @@
+.about-comment{
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+    .about-comment{
+        font-size: 18px;
+    }
+}

@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatBadgeModule} from '@angular/material/badge';
+import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -49,7 +50,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatButtonToggleModule,
     MatBadgeModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxUsefulSwiperModule
   ],
   exports: [
     MatToolbarModule,
@@ -58,7 +60,8 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     MatInputModule,
     MatButtonToggleModule,
-    MatBadgeModule
+    MatBadgeModule,
+    NgxUsefulSwiperModule
   ],
   providers: [appRoutingProviders, ConnectionService],
   bootstrap: [AppComponent]

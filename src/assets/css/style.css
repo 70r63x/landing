@@ -6,7 +6,22 @@
     background: url(../img/Captura.webp) right no-repeat;
 }
 
+@media (max-width: 576px) {
+    .banner-home{
+        height: auto;
+        max-height: auto;
+        min-height: auto;
+        background: #f6faff;
+    }
+}
+
 .greencolor{
     color: #00c9a7 !important;
 }
+
+.btn-start{
+    background: #f6faff !important; 
+}
+
+
     

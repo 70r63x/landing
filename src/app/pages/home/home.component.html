@@ -1,11 +1,11 @@
 <section id="banner" class="banner-home">
   <div class="container">
     <div class="row">
-      <div class="col-6 mt-5 fadeInLeft animated">
+      <div class="col-12 text-center text-md-left col-md-6 mt-5 fadeInLeft animated">
         <h1 class="titleBanner">{{dataHome.infoBanner.title}}</h1>
         <span [innerHTML]="dataHome.infoBanner.text | safeInsertion: 'html'"></span>
         <div class="row">
-          <div class="col-4 my-auto px-0">
+          <div class="col col-md-4 my-auto px-0">
             <p class="btn btn-start text-primary my-auto font-weight-bolder" style="font-size: 20px;">{{dataHome.infoBanner.buttonStart}}</p>
           </div>
           <div class="col px-0 my-auto">
@@ -23,7 +23,7 @@
         <p class="btn btn-start greencolor">{{dataHome.services.button}}</p>
         <h2>{{dataHome.services.title}}</h2>
       </div>
-      <div class="col-3 text-center mx-4" *ngFor="let service of dataHome.services.service">
+      <div class="col-12 col-md-3 text-center mx-4" *ngFor="let service of dataHome.services.service">
         <picture>
           <source srcset="{{service.iconweb}}" type="image/webp"><!-- Formato WebP -->
           <img class="img-fluid mb-3" src="{{service.icon}}" alt="services lucasian labs">
@@ -31,13 +31,13 @@
         <h3>{{service.title}}</h3>
         <p>{{service.text}}</p>
       </div>
-      <div class="col-3 text-center mx-4" *ngFor="let arrow of dataHome.services.arrow; let i = index">
+      <div class="col col-md-3 text-center mx-4" *ngFor="let arrow of dataHome.services.arrow; let i = index">
         <picture>
           <source srcset="{{arrow.iconweb}}" type="image/webp"><!-- Formato WebP -->
           <img class="img-fluid mb-3" [ngClass]="{'flipImage': i==2}" src="{{arrow.icon}}" alt="services lucasian labs">
         </picture>
       </div>
-      <div class="col-8 text-center">
+      <div class="col-12 col-md-8 text-center">
         <p [innerHTML]="dataHome.services.text | safeInsertion: 'html'"></p>
       </div>
       <div class="col-12 text-center fadeInUp animated">
@@ -52,18 +52,18 @@
 <section id="plans" class="my-5">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-5 my-auto">
+      <div class="col-12 col-md-5 my-auto text-center text-md-left">
         <p class="btn btn-start greencolor">{{dataHome.plans.textInfo.button}}</p>
         <h2>{{dataHome.plans.textInfo.title}}</h2>
         <p>{{dataHome.plans.textInfo.text}}</p>
         <mat-button-toggle-group matBadge="10% OFF" matBadgePosition="after" matBadgeColor="accent">
-          <mat-button-toggle class="px-5">{{dataHome.plans.textInfo.perM}}</mat-button-toggle>
-          <mat-button-toggle class="px-5">{{dataHome.plans.textInfo.perA}}</mat-button-toggle>
+          <mat-button-toggle class="px-4 px-md-5">{{dataHome.plans.textInfo.perM}}</mat-button-toggle>
+          <mat-button-toggle class="px-4 px-md-5">{{dataHome.plans.textInfo.perA}}</mat-button-toggle>
         </mat-button-toggle-group>
       </div>
-      <div class="col-7">
+      <div class="col-9 col-md-7 mt-2 mt-md-0">
         <div class="row">
-          <div class="col my-auto border rounded px-0 mx-3" *ngFor="let plan of dataHome.plans.details">
+          <div class="col my-auto border rounded px-0 mx-3 mt-5" *ngFor="let plan of dataHome.plans.details">
             <div class="header">
               <div class="inner-header text-left px-4 pt-3">
                 <p class="text-white h3">{{plan.title}}</p>
