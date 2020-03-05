@@ -52,7 +52,6 @@ export class AboutUsComponent implements OnInit {
   constructor(private service: ConnectionService, public dataWeb: AppComponent) {
     this.dataAbout = dataWeb.getPages().home.about;
     service.getUserService().subscribe((data: any) =>{
-      console.log(data);
       this.usuarios = data;
     })
   }

@@ -14,7 +14,7 @@ import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './pages/home/home.component';
+import { HomeComponent, Openvideo } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ScrollTopComponent } from './sections/scroll-top/scroll-top.component';
 import { LoginComponent, OpenLogin } from './sections/login/login.component';
@@ -36,9 +36,10 @@ import { HttpClientModule } from '@angular/common/http';
     OpenLogin,
     SafeInsertionPipe,
     AboutUsComponent,
-    LayoutComponent
+    LayoutComponent,
+    Openvideo
   ],
-  entryComponents: [OpenLogin],
+  entryComponents: [OpenLogin, Openvideo],
   imports: [
     BrowserModule,
     routing,
