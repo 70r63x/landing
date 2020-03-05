@@ -1,3 +1,54 @@
-<p>
-  home works!
-</p>
+<section id="banner" class="banner-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 mt-5 fadeInLeft animated">
+        <h1 class="titleBanner">{{dataHome.infoBanner.title}}</h1>
+        <span [innerHTML]="dataHome.infoBanner.text | safeInsertion: 'html'"></span>
+        <div class="row">
+          <div class="col-4 my-auto px-0">
+            <p class="btn btn-start text-primary my-auto font-weight-bolder" style="font-size: 20px;">{{dataHome.infoBanner.buttonStart}}</p>
+          </div>
+          <div class="col px-0 my-auto">
+            <i class="fas fa-play btn-start rounded-circle p-3 greencolor"></i> {{dataHome.infoBanner.video}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="service" class="my-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <p class="btn btn-start greencolor">{{dataHome.services.button}}</p>
+        <h2>{{dataHome.services.title}}</h2>
+      </div>
+      <div class="col-3 text-center mx-4" *ngFor="let service of dataHome.services.service">
+        <picture>
+          <source srcset="{{service.iconweb}}" type="image/webp"><!-- Formato WebP -->
+          <img class="img-fluid mb-3" src="{{service.icon}}" alt="services lucasian labs">
+        </picture>
+        <h3>{{service.title}}</h3>
+        <p>{{service.text}}</p>
+      </div>
+      <div class="col-3 text-center mx-4" *ngFor="let arrow of dataHome.services.arrow; let i = index">
+        <picture>
+          <source srcset="{{arrow.iconweb}}" type="image/webp"><!-- Formato WebP -->
+          <img class="img-fluid mb-3" [ngClass]="{'flipImage': i==2}" src="{{arrow.icon}}" alt="services lucasian labs">
+        </picture>
+      </div>
+      <div class="col-8 text-center">
+        <p [innerHTML]="dataHome.services.text | safeInsertion: 'html'"></p>
+      </div>
+      <div class="col-12 text-center fadeInUp animated">
+        <picture>
+          <source srcset="{{dataHome.services.producWeb}}" type="image/webp"><!-- Formato WebP -->
+          <img class="img-fluid" [ngClass]="{'flipImage': i==2}" src="{{dataHome.services.productImg}}" alt="services lucasian labs">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="plans" class="my-5">
+
+</section>

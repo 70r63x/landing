@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import dataWebES from '../assets/data/dataESP.json';
+import dataSeoES from '../assets/data/seo.json';
 
 @Component({
   selector: 'app-root',
@@ -21,5 +22,13 @@ export class AppComponent {
 
   getForms(){
     return dataWebES.forms;
+  }
+
+  getSeo(){
+    return dataSeoES;
+  }
+
+  getPages(){
+    return dataWebES.pages;
   }
 }

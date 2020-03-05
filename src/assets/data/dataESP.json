@@ -65,5 +65,33 @@
             },
             "fieldbutton": "Login"
         }
+    },
+    "pages":{
+        "home":{
+            "logoBanner": "./assets/img/Captura.png",
+            "logoBannerWeb": "./assets/img/Captura.webp",
+            "infoBanner":{
+                "title": "Título",
+                "text": "<p>Contenido <span class='text-primary'>more professional</span></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+                "buttonStart": "Get Started", "video": "Play video"
+            },
+            "services":{
+                "title": "Título de la sección",
+                "button": "¿Necesitas ayuda?",
+                "service": [
+                    {"icon": "./assets/img/imgL1.png", "iconweb": "./assets/img/imgL1.webp", "title": "Servicio1", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+                    {"icon": "./assets/img/imgL2.png", "iconweb": "./assets/img/imgL2.webp", "title": "Servicio2", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
+                    {"icon": "./assets/img/imgL3.png", "iconweb": "./assets/img/imgL3.webp", "title": "Servicio3", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"}
+                ],
+                "arrow": [
+                    {"icon": "./assets/img/flecha.png", "iconweb": "./assets/img/flecha.webp"},
+                    {"icon": "./assets/img/lapso.png", "iconweb": "./assets/img/lapso.webp"},
+                    {"icon": "./assets/img/flecha.png", "iconweb": "./assets/img/flecha.webp"}
+                ],
+                "text": "<span class='font-weight-bolder'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "productImg": "./assets/img/ovalo.png",
+                "producWeb": "./assets/img/ovalo.webp"
+            }
+        }
     }
 }

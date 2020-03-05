@@ -1,0 +1,12 @@
+.banner-home{
+    height: 500px;
+    max-height: 500px;
+    min-height: 500px;
+    background-size: 60% 100% !important;
+    background: url(../img/Captura.webp) right no-repeat;
+}
+
+.greencolor{
+    color: #00c9a7 !important;
+}
+    

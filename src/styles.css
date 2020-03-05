@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: 'Source Sans Pro', sans-serif !important; }
+body { margin: 0; font-family: 'Source Sans Pro', sans-serif !important; font-size: 20px;}
 
 .row-second .mat-menu-item {
     font-size: 20px;
+}
+
+p{
+    color: #808080
 }

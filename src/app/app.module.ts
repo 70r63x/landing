@@ -15,6 +15,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ScrollTopComponent } from './sections/scroll-top/scroll-top.component';
 import { LoginComponent, OpenLogin } from './sections/login/login.component';
+import { SafeInsertionPipe } from './pipes/safe-insertion.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginComponent, OpenLogin } from './sections/login/login.component';
     HomeComponent,
     ScrollTopComponent,
     LoginComponent,
-    OpenLogin
+    OpenLogin,
+    SafeInsertionPipe
   ],
   entryComponents: [OpenLogin],
   imports: [

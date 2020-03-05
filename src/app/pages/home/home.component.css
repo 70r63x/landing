@@ -1,0 +1,12 @@
+.titleBanner{
+    font-size: 60px;
+}
+
+.btn-start{
+    background: #f6faff;
+}
+
+.flipImage{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
